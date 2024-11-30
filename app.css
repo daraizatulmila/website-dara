@@ -1,0 +1,96 @@
+
+body {
+    background: linear-gradient(#28eadd 0%, #339ecb 40%, #2fa4be 100% ) ;
+    overflow-x: hidden;
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(7, 136, 169, 0.7); /* Slightly more transparent */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow to enhance the effect */
+}
+
+
+.profile {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1px;
+    bottom: 100px;
+}
+
+.nav {
+    text-align: justify;
+    position: fixed;
+}
+
+.gmbrakuimage {
+    width: 150px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+}
+
+.profile h3 {
+    color: white; 
+}
+
+.profile h5 {
+    color: white;
+    transform: translate(-10px);
+}
+
+.about {
+    background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+    padding-bottom: 200px;
+}
+
+
+
+.right {
+    order: 2;
+}
+
+.contact {
+    padding: 50px;
+}
+
+.footer {
+    background-color: #fffeff;
+}
+
+/* Optional styling for progress bars */
+.progress {
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .bar-1 {
+    background-color: #007bff; /* Blue */
+  }
+  
+  .bar-2 {
+    background-color: #28a745; /* Green */
+  }
+  
+  .bar-3 {
+    background-color: #ffc107; /* Yellow */
+  }
+  
+  .progress-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+  }
+  
